@@ -1,5 +1,10 @@
 # bloggers
 
+To run the project on your local machine 
+Create a database on https://cloud.mongodb.com/ and put the connection string as `URL` with your `username` and `password` in `db.js` file.\
+-> Go to server folder and run `npm run dev`\
+-> Go to client folder and run `npm start`
+
 # Login Page
 ![image](https://user-images.githubusercontent.com/66526393/210423901-db22f3fb-bccd-430e-b4d2-135bd8c8c21e.png)
 
