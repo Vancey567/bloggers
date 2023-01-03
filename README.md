@@ -1,9 +1,18 @@
 # bloggers
 
 To run the project on your local machine 
-Create a database on https://cloud.mongodb.com/ and put the connection string as `URL` with your `username` and `password` in `db.js` file.\
--> Go to server folder and run `npm run dev`\
--> Go to client folder and run `npm start`
+Create a database on https://cloud.mongodb.com/ and put the connection string as `URL` with your `username` and `password` in `db.js` file.
+- Go to server folder and run `npm run dev`
+- Go to client folder and run `npm start`
+
+# Inside the .env file put these as well and update it with your own Access and secret key
+- PORT=8000
+- DB_USERNAME=user
+- DB_PASSWORD=1234
+- ACCESS_SECRET_KEY=your access key
+- REFRESH_SECRET_KEY=your secret key
+- DB=mongodb://localhost/image-upload
+
 
 # Login Page
 ![image](https://user-images.githubusercontent.com/66526393/210423901-db22f3fb-bccd-430e-b4d2-135bd8c8c21e.png)
